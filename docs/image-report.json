@@ -1,0 +1,192 @@
+[
+  {
+    "url": "https://i.ibb.co/Lhp0fbQd/Kit-Pedag-gico-Consci-ncia-Negra.png",
+    "name": "mockup-principal",
+    "src": "/images/mockup-principal.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2448510,
+    "optimizedBytes": 514292,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/DDPM7sT7/02-Identificacao-da-Professora.png",
+    "name": "identificacao-professora",
+    "src": "/images/identificacao-professora.webp",
+    "width": 1440,
+    "height": 480,
+    "originalBytes": 1854872,
+    "optimizedBytes": 176628,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/mCBzvb7X/Cuidado-e-participa-o-no-jardim-escolar-10.png",
+    "name": "atividade-01",
+    "src": "/images/atividade-01.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1815757,
+    "optimizedBytes": 225374,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/qLctvrLh/Crian-as-negras-criando-um-mural-8.png",
+    "name": "atividade-02",
+    "src": "/images/atividade-02.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1723962,
+    "optimizedBytes": 201770,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/W46ygRzF/Saberes-da-capoeira-para-colorir-9.png",
+    "name": "atividade-03",
+    "src": "/images/atividade-03.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1716017,
+    "optimizedBytes": 197442,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/j262SBH/Caderno-de-colorir-samba-de-roda-7.png",
+    "name": "atividade-04",
+    "src": "/images/atividade-04.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1737249,
+    "optimizedBytes": 198158,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/nspkstbJ/Crian-as-lendo-juntas-na-biblioteca-6.png",
+    "name": "atividade-05",
+    "src": "/images/atividade-05.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1700974,
+    "optimizedBytes": 199466,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/0yCzB08S/Crian-as-brincando-em-roda-no-caderno-5.png",
+    "name": "atividade-06",
+    "src": "/images/atividade-06.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1679247,
+    "optimizedBytes": 184770,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/WNVDTddg/Leitura-e-afeto-3.png",
+    "name": "atividade-07",
+    "src": "/images/atividade-07.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1665793,
+    "optimizedBytes": 186310,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/SwSSjC3d/Talentos-e-descobertas-para-aprender-e-criar-4.png",
+    "name": "atividade-08",
+    "src": "/images/atividade-08.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1690523,
+    "optimizedBytes": 188596,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/DHDHLQjb/Cabelos-e-respeito-para-colorir-2.png",
+    "name": "atividade-09",
+    "src": "/images/atividade-09.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1672161,
+    "optimizedBytes": 184438,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/skrfcnL/Caderno-infantil-meu-jeito-de-ser-1.png",
+    "name": "atividade-10",
+    "src": "/images/atividade-10.webp",
+    "width": 1086,
+    "height": 1448,
+    "originalBytes": 1592009,
+    "optimizedBytes": 165218,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/BVgp92cD/Imagem-do-Chat-GPT-2-de-nov-de-2026-16-19-23.png",
+    "name": "bonus-01",
+    "src": "/images/bonus-01.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2205792,
+    "optimizedBytes": 457978,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/nM243SpG/Imagem-do-Chat-GPT-2-de-nov-de-2026-16-20-20.png",
+    "name": "bonus-02",
+    "src": "/images/bonus-02.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2648511,
+    "optimizedBytes": 537350,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/wZQCT9Yt/Imagem-do-Chat-GPT-2-de-nov-de-2026-16-20-55.png",
+    "name": "bonus-03",
+    "src": "/images/bonus-03.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2067659,
+    "optimizedBytes": 433988,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/Ld5LttqF/Imagem-do-Chat-GPT-2-de-nov-de-2026-16-21-28.png",
+    "name": "bonus-04",
+    "src": "/images/bonus-04.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2328372,
+    "optimizedBytes": 480136,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/8g8vmw88/Lembrancinhas-e-Certificados-da-Consci-ncia-Negra-B-nus-05.png",
+    "name": "bonus-05",
+    "src": "/images/bonus-05.webp",
+    "width": 1440,
+    "height": 1080,
+    "originalBytes": 2139704,
+    "optimizedBytes": 447462,
+    "alpha": true
+  },
+  {
+    "url": "https://i.ibb.co/gZdXTXhM/Infogr-fico-do-Garantia-de-14-Dias.png",
+    "name": "garantia-14-dias",
+    "src": "/images/garantia-14-dias.webp",
+    "width": 1440,
+    "height": 480,
+    "originalBytes": 1578466,
+    "optimizedBytes": 122344,
+    "alpha": false
+  },
+  {
+    "url": "https://i.ibb.co/5WtsDDtV/05-Entrega-pelo-Whats-App.png",
+    "name": "entrega-whatsapp",
+    "src": "/images/entrega-whatsapp.webp",
+    "width": 1440,
+    "height": 720,
+    "originalBytes": 1882778,
+    "optimizedBytes": 227728,
+    "alpha": false
+  }
+]

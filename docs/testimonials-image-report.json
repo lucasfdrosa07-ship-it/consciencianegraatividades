@@ -1,0 +1,23 @@
+[
+  {
+    "src": "/images/depoimento-01.webp",
+    "width": 806,
+    "height": 1599,
+    "originalBytes": 203473,
+    "optimizedBytes": 133482
+  },
+  {
+    "src": "/images/depoimento-02.webp",
+    "width": 788,
+    "height": 1598,
+    "originalBytes": 124346,
+    "optimizedBytes": 78132
+  },
+  {
+    "src": "/images/depoimento-03.webp",
+    "width": 796,
+    "height": 1601,
+    "originalBytes": 149025,
+    "optimizedBytes": 93680
+  }
+]

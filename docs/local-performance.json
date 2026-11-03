@@ -1,0 +1,91 @@
+{
+  "lcp": 160,
+  "cls": 0,
+  "note": "Chrome local, build de produção, sem throttling de rede/CPU. Não equivale a tráfego real nem Lighthouse mobile.",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "resources": [
+    {
+      "url": "http://127.0.0.1:31317/_next/static/media/fredoka-s.p.1lk5lt67efsgn.woff2",
+      "bytes": 33924,
+      "type": "link"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/media/nunito_sans-s.p.43tw5taujkj4o.woff2",
+      "bytes": 31376,
+      "type": "link"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fmockup-principal.webp&w=480&q=90",
+      "bytes": 95890,
+      "type": "link"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/1zgp8ajc53iym.css",
+      "bytes": 7442,
+      "type": "link"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/0kqziy-7_gy73.js",
+      "bytes": 7732,
+      "type": "link"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/395glp5--7qza.js",
+      "bytes": 48777,
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/3qfy96eoyh-ek.js",
+      "bytes": 3815,
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/turbopack-2u1d16houkiyo.js",
+      "bytes": 4205,
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/2s_83p5jszt2_.js",
+      "bytes": 20759,
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/static/chunks/2pffymnt3iag4.js",
+      "bytes": 71981,
+      "type": "script"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fidentificacao-professora.webp&w=480&q=90",
+      "bytes": 35634,
+      "type": "img"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fatividade-01.webp&w=320&q=90",
+      "bytes": 43318,
+      "type": "img"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fatividade-03.webp&w=320&q=90",
+      "bytes": 37496,
+      "type": "img"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fatividade-02.webp&w=320&q=90",
+      "bytes": 39166,
+      "type": "img"
+    },
+    {
+      "url": "http://127.0.0.1:31317/_next/image?url=%2Fimages%2Fatividade-04.webp&w=320&q=90",
+      "bytes": 38176,
+      "type": "img"
+    },
+    {
+      "url": "http://127.0.0.1:31317/icon.svg?icon.3-r6uvihyrtwe.svg",
+      "bytes": 624,
+      "type": "other"
+    }
+  ]
+}
