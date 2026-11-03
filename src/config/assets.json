@@ -6,7 +6,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2448510,
-    "optimizedBytes": 514292,
+    "optimizedBytes": 400628,
     "alpha": true
   },
   "identificacao-professora": {
@@ -16,7 +16,7 @@
     "width": 1440,
     "height": 480,
     "originalBytes": 1854872,
-    "optimizedBytes": 176628,
+    "optimizedBytes": 135458,
     "alpha": false
   },
   "atividade-01": {
@@ -26,7 +26,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1815757,
-    "optimizedBytes": 225374,
+    "optimizedBytes": 175364,
     "alpha": false
   },
   "atividade-02": {
@@ -36,7 +36,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1723962,
-    "optimizedBytes": 201770,
+    "optimizedBytes": 153616,
     "alpha": false
   },
   "atividade-03": {
@@ -46,7 +46,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1716017,
-    "optimizedBytes": 197442,
+    "optimizedBytes": 150918,
     "alpha": false
   },
   "atividade-04": {
@@ -56,7 +56,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1737249,
-    "optimizedBytes": 198158,
+    "optimizedBytes": 151392,
     "alpha": false
   },
   "atividade-05": {
@@ -66,7 +66,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1700974,
-    "optimizedBytes": 199466,
+    "optimizedBytes": 151562,
     "alpha": false
   },
   "atividade-06": {
@@ -76,7 +76,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1679247,
-    "optimizedBytes": 184770,
+    "optimizedBytes": 139172,
     "alpha": false
   },
   "atividade-07": {
@@ -86,7 +86,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1665793,
-    "optimizedBytes": 186310,
+    "optimizedBytes": 141276,
     "alpha": false
   },
   "atividade-08": {
@@ -96,7 +96,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1690523,
-    "optimizedBytes": 188596,
+    "optimizedBytes": 142562,
     "alpha": false
   },
   "atividade-09": {
@@ -106,7 +106,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1672161,
-    "optimizedBytes": 184438,
+    "optimizedBytes": 138794,
     "alpha": false
   },
   "atividade-10": {
@@ -116,7 +116,7 @@
     "width": 1086,
     "height": 1448,
     "originalBytes": 1592009,
-    "optimizedBytes": 165218,
+    "optimizedBytes": 124632,
     "alpha": false
   },
   "bonus-01": {
@@ -126,7 +126,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2205792,
-    "optimizedBytes": 457978,
+    "optimizedBytes": 341364,
     "alpha": true
   },
   "bonus-02": {
@@ -136,7 +136,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2648511,
-    "optimizedBytes": 537350,
+    "optimizedBytes": 407930,
     "alpha": true
   },
   "bonus-03": {
@@ -146,7 +146,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2067659,
-    "optimizedBytes": 433988,
+    "optimizedBytes": 320726,
     "alpha": true
   },
   "bonus-04": {
@@ -156,7 +156,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2328372,
-    "optimizedBytes": 480136,
+    "optimizedBytes": 359492,
     "alpha": true
   },
   "bonus-05": {
@@ -166,7 +166,7 @@
     "width": 1440,
     "height": 1080,
     "originalBytes": 2139704,
-    "optimizedBytes": 447462,
+    "optimizedBytes": 334298,
     "alpha": true
   },
   "garantia-14-dias": {
@@ -176,7 +176,7 @@
     "width": 1440,
     "height": 480,
     "originalBytes": 1578466,
-    "optimizedBytes": 122344,
+    "optimizedBytes": 95300,
     "alpha": false
   },
   "entrega-whatsapp": {
@@ -186,7 +186,37 @@
     "width": 1440,
     "height": 720,
     "originalBytes": 1882778,
-    "optimizedBytes": 227728,
+    "optimizedBytes": 172524,
+    "alpha": false
+  },
+  "depoimento-01": {
+    "url": "https://i.ibb.co/B5CGT86C/Whats-App-Image-2026-11-02-at-20-54-53.jpg",
+    "name": "depoimento-01",
+    "src": "/images/depoimento-01.webp",
+    "width": 806,
+    "height": 1599,
+    "originalBytes": 133482,
+    "optimizedBytes": 133482,
+    "alpha": false
+  },
+  "depoimento-02": {
+    "url": "https://i.ibb.co/KxYjnpBp/Whats-App-Image-2026-11-02-at-21-02-48.jpg",
+    "name": "depoimento-02",
+    "src": "/images/depoimento-02.webp",
+    "width": 788,
+    "height": 1598,
+    "originalBytes": 78132,
+    "optimizedBytes": 78132,
+    "alpha": false
+  },
+  "depoimento-03": {
+    "url": "https://i.ibb.co/9mtChDjS/Whats-App-Image-2026-11-02-at-21-16-00.jpg",
+    "name": "depoimento-03",
+    "src": "/images/depoimento-03.webp",
+    "width": 796,
+    "height": 1601,
+    "originalBytes": 93680,
+    "optimizedBytes": 93680,
     "alpha": false
   }
 }

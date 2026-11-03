@@ -10,7 +10,7 @@ function HeroSection() {
   return <section className="hero" id="inicio" aria-labelledby="hero-title"><div className="container hero-grid">
     <p className="hero-label"><span className="small-dot" />MATERIAL DIGITAL PARA PROFESSORES DO 2º AO 5º ANO</p>
     <h1 id="hero-title"><span className="inventory-highlight">+300 Atividades e Mapas Mentais</span> de <span className="text-red">Consciência Negra</span> Prontos para Imprimir e Aplicar com Sua Turma!</h1>
-    <div className="hero-art"><AssetImage name="mockup-principal" alt="Kit Pedagógico da Consciência Negra com atividades ilustradas, mapas mentais e materiais para impressão" priority sizes="(max-width: 767px) 100vw, (max-width: 1100px) 50vw, 660px" /></div>
+    <div className="hero-art"><AssetImage name="mockup-principal" alt="Kit Pedagógico da Consciência Negra com atividades ilustradas, mapas mentais e materiais para impressão" priority sizes="(max-width: 767px) and (max-height: 700px) 70vw, (max-width: 767px) calc(100vw - 40px), (max-width: 1100px) 50vw, 660px" /></div>
     <p className="hero-subheadline">Leitura, pintura e reflexão em atividades prontas para <strong>facilitar suas aulas.</strong></p>
     <CheckList items={heroBenefits} className="hero-benefits" />
     <CTAButton className="hero-cta">QUERO GARANTIR MEU KIT COMPLETO</CTAButton>

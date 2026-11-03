@@ -68,7 +68,7 @@ export function TestimonialsSection() {
           onKeyDown={event => { if (event.key === "ArrowRight") { event.preventDefault(); embla?.scrollNext(reduced); } if (event.key === "ArrowLeft") { event.preventDefault(); embla?.scrollPrev(reduced); } }}>
           <div className="testimonial-track">{offer.testimonials.map((testimonial, slide) => <div className="testimonial-slide" key={testimonial.src} role="group" aria-roledescription="slide" aria-label={`${slide + 1} de ${offer.testimonials.length}`}>
             <button type="button" className="testimonial-image" aria-label={`Ampliar depoimento ${slide + 1}`} onClick={() => setExpanded(slide)}>
-              <Image {...testimonial} alt={testimonial.alt} sizes="(max-width: 480px) 100vw, 430px" quality={90} loading="lazy" draggable={false} />
+              <Image {...testimonial} alt={testimonial.alt} sizes="(max-width: 480px) 290px, 340px" quality={75} loading="lazy" draggable={false} />
             </button>
           </div>)}</div>
         </div>

@@ -5,10 +5,16 @@ import type { ReactNode } from "react";
 
 export type MediaAsset = { src: string; width: number; height: number };
 export const assetMap: Record<string, MediaAsset> = assets;
+const mockupWidths = [320, 480, 640, 768, 828, 960, 1024, 1200, 1440];
+const mockupSrcSet = (format: "avif" | "webp") => mockupWidths.map(width => `/images/mockup-principal-${width}.${format} ${width}w`).join(", ");
 
 export function AssetImage({ name, alt, sizes = "(max-width: 640px) 100vw, 640px", priority = false, className = "" }: { name: string; alt: string; sizes?: string; priority?: boolean; className?: string }) {
   const asset = assetMap[name];
-  return <Image src={asset.src} width={asset.width} height={asset.height} alt={alt} sizes={sizes} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} quality={90} className={`asset-image ${className}`} />;
+  if (name === "mockup-principal") return <picture>
+    <source type="image/avif" srcSet={mockupSrcSet("avif")} sizes={sizes} />
+    <img src="/images/mockup-principal-768.webp" srcSet={mockupSrcSet("webp")} width={asset.width} height={asset.height} alt={alt} sizes={sizes} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} decoding="async" className={`asset-image ${className}`} />
+  </picture>;
+  return <Image src={asset.src} width={asset.width} height={asset.height} alt={alt} sizes={sizes} loading={priority ? "eager" : "lazy"} fetchPriority={priority ? "high" : "auto"} quality={75} className={`asset-image ${className}`} />;
 }
 
 export function CTAButton({ children, className = "" }: { children: ReactNode; className?: string }) {

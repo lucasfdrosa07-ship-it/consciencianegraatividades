@@ -28,7 +28,7 @@ export function ProductCarousel() {
   const [dragging, setDragging] = useState(false);
   const [selected, setSelected] = useState<number | null>(null);
   const [position, setPosition] = useState(0);
-  const [readyImages, setReadyImages] = useState<number[]>([0, 1, 2, 3]);
+  const [readyImages, setReadyImages] = useState<number[]>([0, 1, 2]);
 
   useEffect(() => {
     if (!sectionRef.current) return;
@@ -83,7 +83,7 @@ export function ProductCarousel() {
           const image = assetMap[activity.asset];
           return <div key={activity.asset} className="activity-slide" role="group" aria-roledescription="slide" aria-label={`${index + 1} de 10: ${activity.title}`}>
             <button type="button" className="activity-image-button" onClick={() => openImage(index)} aria-label={`Ampliar: ${activity.description}`}>
-              {readyImages.includes(index) ? <Image src={image.src} width={image.width} height={image.height} alt={activity.description} sizes="(max-width: 640px) 82vw, (max-width: 1024px) 45vw, 380px" quality={90} draggable={false} /> : <span className="image-placeholder" style={{ aspectRatio: `${image.width}/${image.height}` }} />}
+              {readyImages.includes(index) ? <Image src={image.src} width={image.width} height={image.height} alt={activity.description} sizes="(max-width: 640px) 82vw, (max-width: 1024px) 45vw, 380px" quality={75} draggable={false} /> : <span className="image-placeholder" style={{ aspectRatio: `${image.width}/${image.height}` }} />}
               <span className="enlarge-hint" aria-hidden="true"><Maximize2 size={15} /></span>
             </button>
             <div className="activity-caption"><span>{String(index + 1).padStart(2, "0")}</span><h3>{activity.title}</h3></div>
