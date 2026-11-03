@@ -30,3 +30,14 @@ test('mantém UTF-8 e caracteres especiais sem corromper os parâmetros', () => 
   assert.equal(destination.searchParams.get('utm_campaign'), 'consciência negra');
   assert.equal(destination.searchParams.get('utm_content'), 'a&b=c');
 });
+
+test('preserva os parâmetros do modelo de URL dos anúncios Meta no checkout', () => {
+  const template = 'utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}';
+  const destination = new URL(checkoutDestination('https://pay.lowify.com.br/checkout?product_id=VyL412', `?${template}`));
+  assert.equal(destination.searchParams.get('product_id'), 'VyL412');
+  assert.equal(destination.searchParams.get('utm_source'), 'FB');
+  assert.equal(destination.searchParams.get('utm_campaign'), '{{campaign.name}}|{{campaign.id}}');
+  assert.equal(destination.searchParams.get('utm_medium'), '{{adset.name}}|{{adset.id}}');
+  assert.equal(destination.searchParams.get('utm_content'), '{{ad.name}}|{{ad.id}}');
+  assert.equal(destination.searchParams.get('utm_term'), '{{placement}}');
+});
