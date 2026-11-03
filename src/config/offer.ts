@@ -3,7 +3,7 @@ export const offer = {
   price: "29,90",
   referencePrice: "97,00",
   showReferencePrice: true,
-  checkoutUrl: "",
+  checkoutUrl: "https://pay.lowify.com.br/checkout?product_id=VyL412",
   vsl: { enabled: true, url: "", poster: "", type: "video" as "video" | "youtube" | "vimeo" },
   testimonials: [
     { src: "/images/depoimento-01.webp", alt: "Depoimento compartilhado pelo WhatsApp sobre as atividades da Consciência Negra — imagem 1", width: 806, height: 1599 },
