@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import localFont from "next/font/local";
+import Script from "next/script";
 import "./globals.css";
 
 const fredoka = localFont({ src: "../fonts/fredoka.woff2", variable: "--font-heading", display: "swap", weight: "400 700" });
@@ -18,6 +19,9 @@ export const metadata: Metadata = {
 
 export const viewport: Viewport = { width: "device-width", initialScale: 1, viewportFit: "cover", themeColor: "#fff9ed" };
 
+const metaPixel = `!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','1017789413872986');fbq('track','PageView');`;
+const utmifyPixel = `window.pixelId='6ae4039db59039d938c04391';(function(){var script=document.createElement('script');script.src='https://cdn.utmify.com.br/scripts/pixel/pixel.js';script.async=true;script.defer=true;(document.head||document.documentElement).appendChild(script)})();`;
+
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="pt-BR" className={`${fredoka.variable} ${nunito.variable}`}><body>{children}</body></html>;
+  return <html lang="pt-BR" className={`${fredoka.variable} ${nunito.variable}`}><body>{children}<Script id="meta-pixel" strategy="afterInteractive">{metaPixel}</Script><Script id="utmify-pixel" strategy="afterInteractive">{utmifyPixel}</Script></body></html>;
 }

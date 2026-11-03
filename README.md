@@ -1,6 +1,6 @@
 # Kit Pedagógico da Consciência Negra
 
-Landing page em **Next.js App Router, React, TypeScript e Tailwind CSS**, preparada para hospedagem na **Vercel**. A maior parte do conteúdo é renderizada no servidor e pré-renderizada no build. Não utiliza banco de dados, autenticação ou scripts de rastreamento.
+Landing page em **Next.js App Router, React, TypeScript e Tailwind CSS**, hospedada na **Vercel**. A maior parte do conteúdo é renderizada no servidor e pré-renderizada no build. Não utiliza banco de dados ou autenticação.
 
 ## Executar localmente
 
@@ -31,23 +31,33 @@ Também é possível executar `npx vercel` nesta pasta e seguir a autenticação
 
 A URL social é obtida das variáveis automáticas da Vercel. Se usar um domínio próprio, defina `NEXT_PUBLIC_SITE_URL` com a URL real e faça um novo deployment. Nenhum domínio canônico fictício foi adicionado.
 
-**O projeto foi preparado e compilado localmente; ainda não houve deployment na Vercel.**
+O projeto está publicado na Vercel, com deploy automático ao atualizar a branch `main` no GitHub.
 
 ## Configurações comerciais e conteúdo
 
 O arquivo principal é `src/config/offer.ts`:
 
 ```ts
-checkoutUrl: "", // Preencha com a URL HTTPS real do checkout.
+checkoutUrl: "https://pay.lowify.com.br/checkout?product_id=VyL412",
 vsl: { enabled: true, url: "", poster: "", type: "video" },
-testimonials: [],
+testimonials: [/* três imagens reais otimizadas */],
 ```
 
-- **Checkout:** preencha `checkoutUrl`. O botão é habilitado automaticamente após um novo build/deployment. Enquanto vazio ou inválido, permanece desativado com uma explicação acessível. O destino recebe apenas UTMs conhecidas e `fbclid`; parâmetros já presentes no checkout têm precedência. Não transfere campos arbitrários da URL.
+- **Checkout:** o botão aponta para a Lowify. O destino recebe apenas UTMs conhecidas e `fbclid`; parâmetros já presentes no checkout têm precedência. Não transfere campos arbitrários da URL.
 - **VSL:** preencha `vsl.url`, defina o `type` como `video`, `youtube` ou `vimeo` e, opcionalmente, `poster`. A seção aparece automaticamente entre o carrossel e os bônus. O player só carrega após o clique do visitante. `enabled: false` oculta a seção mesmo com URL.
 - **Depoimentos:** adicione somente imagens reais a `testimonials`, com `src`, `alt`, `width` e `height`. Exemplo de formato: `{ src: "/images/depoimento-real.webp", alt: "Descrição fiel do depoimento real", width: 800, height: 1200 }`. A seção aparece com swipe, setas, teclado e ampliação. Não existem avaliações ou depoimentos fictícios.
 - **Preço:** R$ 29,90, pagamento único, com R$ 97,00 riscado acima, conforme solicitado.
 - **Copy:** benefícios, entregáveis, cinco bônus e oito perguntas estão no mesmo arquivo.
+
+## Rastreamento
+
+O layout carrega o Meta Pixel `1017789413872986` com evento `PageView` e o pixel da UTMify `6ae4039db59039d938c04391` após a hidratação. O código fornecido da UTMify foi decodificado em uma versão equivalente e legível que carrega `https://cdn.utmify.com.br/scripts/pixel/pixel.js`.
+
+Configure os parâmetros abaixo na **URL do anúncio no Meta Ads**. Os campos entre `{{...}}` são macros do Meta; a página repassa os valores recebidos para o checkout, sem enviar as macros literalmente em acessos orgânicos.
+
+```text
+utm_source=FB&utm_campaign={{campaign.name}}|{{campaign.id}}&utm_medium={{adset.name}}|{{adset.id}}&utm_content={{ad.name}}|{{ad.id}}&utm_term={{placement}}
+```
 
 ## Estrutura
 
